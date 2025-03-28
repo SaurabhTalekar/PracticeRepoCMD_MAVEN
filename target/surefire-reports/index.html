@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>E:\eclipse-workspace\PracticeProjCMD_MVN\Reg_profiling.xml</span>
+                    <span>E:\eclipse-workspace\PracticeProjCMD_MVN\Smoke_profiling.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,22 +103,12 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="contact.ContactTest" class="method navigator-link" hash-for-method="createContactTest">createContactTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="contact.ContactTest" class="method navigator-link" hash-for-method="modifyContactTest">modifyContactTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.OrgTest" class="method navigator-link" hash-for-method="createOrgTest">createOrgTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="contact.ContactTest" class="method navigator-link" hash-for-method="deleteContactTest">deleteContactTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="org.OrgTest" class="method navigator-link" hash-for-method="deleteOrgTest">deleteOrgTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="org.OrgTest" class="method navigator-link" hash-for-method="modifyOrgTest">modifyOrgTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -141,16 +131,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createOrgTest">
-                  </a> <!-- createOrgTest -->
-                  <span class="method-name">createOrgTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="deleteOrgTest">
-                  </a> <!-- deleteOrgTest -->
-                  <span class="method-name">deleteOrgTest</span>
+                  <a name="modifyOrgTest">
+                  </a> <!-- modifyOrgTest -->
+                  <span class="method-name">modifyOrgTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -163,16 +146,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createContactTest">
-                  </a> <!-- createContactTest -->
-                  <span class="method-name">createContactTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="deleteContactTest">
-                  </a> <!-- deleteContactTest -->
-                  <span class="method-name">deleteContactTest</span>
+                  <a name="modifyContactTest">
+                  </a> <!-- modifyContactTest -->
+                  <span class="method-name">modifyContactTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -180,7 +156,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\eclipse-workspace\PracticeProjCMD_MVN\Reg_profiling.xml</span>
+            <span class="header-content">E:\eclipse-workspace\PracticeProjCMD_MVN\Smoke_profiling.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -189,12 +165,12 @@
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;include name=&quot;Regression&quot;/&gt;
+      &lt;include name=&quot;Smoke&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;groups&gt;
     &lt;run&gt;
-      &lt;include name=&quot;Regression&quot;/&gt;
+      &lt;include name=&quot;Smoke&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
@@ -225,22 +201,14 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">Regression</span>
+              <span class="test-group-name">Smoke</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">createContactTest</span>
+                <span class="method-in-group-name">modifyContactTest</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">createOrgTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">deleteContactTest</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">deleteOrgTest</span>
+                <span class="method-in-group-name">modifyOrgTest</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -260,28 +228,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createContactTest')
+data.setCell(0, 1, 'modifyContactTest')
 data.setCell(0, 2, 'contact.ContactTest')
 data.setCell(0, 3, 4);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'deleteOrgTest')
+data.setCell(1, 1, 'modifyOrgTest')
 data.setCell(1, 2, 'org.OrgTest')
-data.setCell(1, 3, 3);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createOrgTest')
-data.setCell(2, 2, 'org.OrgTest')
-data.setCell(2, 3, 1);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'deleteContactTest')
-data.setCell(3, 2, 'contact.ContactTest')
-data.setCell(3, 3, 0);
+data.setCell(1, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 ms</span>
+              <span class="suite-total-time">Total running time: 5 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -296,20 +256,24 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">org.OrgTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">modifyOrgTest</span>
+                <span class="ignored-method-name">createOrgTest</span>
+                <br/>
+                <span class="ignored-method-name">deleteOrgTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">contact.ContactTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">modifyContactTest</span>
+                <span class="ignored-method-name">createContactTest</span>
+                <br/>
+                <span class="ignored-method-name">deleteContactTest</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -323,23 +287,15 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">contact.ContactTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">createContactTest</span>
+                <span class="method-name">modifyContactTest</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">deleteContactTest</span>
-                <span class="method-start">11 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">org.OrgTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">createOrgTest</span>
-                <span class="method-start">14 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">deleteOrgTest</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-name">modifyOrgTest</span>
+                <span class="method-start">12 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

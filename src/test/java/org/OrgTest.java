@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class OrgTest {
 	
-	@Test(groups = "Regression")
+	@Test
 	public void createOrgTest() {
 		
 		String URL = System.getProperty("url");

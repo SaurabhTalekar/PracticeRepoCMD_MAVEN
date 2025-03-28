@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class ContactTest {
 
-	@Test(groups = "Regression")
+	@Test
 	public void createContactTest() {
 		
 		String URL = System.getProperty("url");
