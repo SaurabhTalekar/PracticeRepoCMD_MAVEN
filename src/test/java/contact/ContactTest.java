@@ -25,7 +25,7 @@ public class ContactTest {
 		System.out.println("Execute Modify Contact Test");
 	}
 	
-	@Test (groups = "Smoke")
+	@Test (groups = "Regression")
 	public void deleteContactTest() {
 		
 		System.out.println("Execute Delete Contact Test for Regression");
