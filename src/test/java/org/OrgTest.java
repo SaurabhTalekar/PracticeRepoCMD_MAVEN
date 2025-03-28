@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class OrgTest {
 	
-	@Test
+	@Test(groups = "Regression")
 	public void createOrgTest() {
 		
 		String URL = System.getProperty("url");
@@ -23,6 +23,12 @@ public class OrgTest {
 	public void modifyOrgTest() {
 		
 		System.out.println("Execute ModifyOrgTest");
+	}
+	
+	@Test (groups = "Regression")
+	public void deleteOrgTest() {
+		
+		System.out.println("Execute Delete Org Test for Regression");
 	}
 	
 
