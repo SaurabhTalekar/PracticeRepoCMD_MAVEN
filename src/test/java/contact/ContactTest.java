@@ -12,11 +12,11 @@ public class ContactTest {
 		String USERNAME = System.getProperty("username");
 		String PASSWORD = System.getProperty("password");
 		
-		System.out.println("Execute Create Contact Test");
 		System.out.println(URL);
 		System.out.println(BROWSER);
 		System.out.println(USERNAME);
 		System.out.println(PASSWORD);
+		System.out.println("Execute Create Contact Test");
 	}
 	
 	@Test (groups = "Smoke")
@@ -25,9 +25,4 @@ public class ContactTest {
 		System.out.println("Execute Modify Contact Test");
 	}
 	
-	@Test
-	public void DeleteContactTest() {
-		
-		System.out.println("Execute Delete Contact Test");
-	}
 }
